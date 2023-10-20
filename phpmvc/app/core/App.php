@@ -4,6 +4,6 @@ class App
 {
     public function __construct()
     {
-        echo 'OK!';
+        echo 'OK AMAN!';
     }
 }
