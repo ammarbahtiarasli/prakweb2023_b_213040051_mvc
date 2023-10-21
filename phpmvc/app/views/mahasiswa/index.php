@@ -1,6 +1,12 @@
 <div class="container mt-3">
+
     <div class="row">
-        <div class="col-6">
+        <div class="col-lg-6">
+            <?php Flasher::flash(); ?>
+        </div>
+
+    <div class="row">
+        <div class="col-lg-6">
             <!-- Button trigger modal -->
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#formModal">
                 Tambah data mahasiswa
@@ -31,7 +37,7 @@
                                     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="nrp" class="form-label">Jurusan</label>
+                                    <label for="jurusan" class="form-label">Jurusan</label>
                                     <select class="form-select" aria-label="jurusan" name="jurusan" id="jurusan">
                                         <option value="Teknik Informatika">Teknik Informatika</option>
                                         <option value="Teknik Mesin">Teknik Mesin</option>
